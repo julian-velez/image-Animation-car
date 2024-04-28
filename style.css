@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+}
+
+
+
+.split-image-container {
+    position: relative;
+    overflow: hidden;
+    width: 500px; /* Ajusta el ancho según tus necesidades */
+    height: 300px; /* Ajusta la altura según tus necesidades */
+}
+
+.split-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+
+.split-image:hover {
+    transform: translateX(-50%) rotate(10deg);
+}
